@@ -31,16 +31,11 @@
 
     .three-col .column {
         width: 32%;
-        max-width: 200px;
-        display: inline-block;
         vertical-align: top;
         font-size: 16px;
-    }
-
-    .three-col .gap {
-        width: 2%;
-        max-width: 10px;
-        display: inline-block;
+        border: 3px solid #01A982;
+        padding: 14px;
+        box-sizing: border-box;
     }
 
     .agenda p {
@@ -48,6 +43,23 @@
         line-height: 20px;
     }
 
+    @media screen and (max-width: 640px) {
+
+        .email_container {
+            width: 100%;
+            margin: auto;
+        }
+
+        .stack-column-center {
+            display: block;
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+
+        .paddingtop20 {
+            padding-top: 20px !important;
+        }
+    }
 </style>
 </head>
 <body>
@@ -118,49 +130,66 @@ Drive faster, smarter decisions and innovation through HPE GreenLake. It is desi
                                 <table width="100%">
                                     <tr>
                                         <td class="three-col" bgcolor="#ffffff" style="padding: 0 20px;">
-                                            <table class="column">
+                                            <table width="100%">
                                                 <tr>
-                                                    <td style="text-align: center; padding: 14px 10px; border: 3px solid #01A982; background-color: #ffffff">
-                                                        <img src="./images/icon01.png"
-                                                         alt="" style="width: 61px; height: auto; max-width: 61px;">
-                                                        <p><strong style="color: #01A982;">Optimized
-                                                            and certified</strong><br>
-                                                            For SAP systems and services
-                                                        </p>
+                                                    <td class="column stack-column-center">
+                                                        <table width="100%">
+                                                            <tr>
+                                                                <td>
+                                                                    <img src="./images/icon01.png" alt="" style="width:100%; max-width: 61px;">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p>
+                                                                        <strong style="color: #01A982;">Optimized
+                                                                            and certified
+                                                                        </strong><br>
+                                                                        For SAP systems and services
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
                                                     </td>
-                                                </tr>
-                                            </table>
-                                            <table class="gap">
-                                                <tr>
-                                                    <td></td>
-                                                </tr>
-                                            </table>
-                                            <table class="column">
-                                                <tr>
-                                                    <td style="text-align: center; padding: 14px 10px; border: 3px solid #01A982; background-color: #ffffff">
-                                                        <img src="./images/icon02.png"
-                                                         alt="" style="width: 61px; height: auto; max-width: 61px;">
-                                                        <p><strong style="color: #01A982;">Flexibility
-                                                            for businesses</strong><br>
-                                                            Pay-per-use regardless of scale
-                                                        </p>
+                                                    <td width="2%" class="stack-column-center paddingtop20"></td>
+                                                    <td class="column stack-column-center">
+                                                        <table width="100%">
+                                                            <tr>
+                                                                <td>
+                                                                    <img src="./images/icon02.png" alt="" style="width:100%; max-width: 61px;">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p>
+                                                                        <strong style="color: #01A982;">Flexibility
+                                                                            for businesses
+                                                                        </strong><br>
+                                                                        Pay-per-use regardless of scale
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
                                                     </td>
-                                                </tr>
-                                            </table>
-                                            <table class="gap">
-                                                <tr>
-                                                    <td></td>
-                                                </tr>
-                                            </table>
-                                            <table class="column">
-                                                <tr>
-                                                    <td style="text-align: center; padding: 14px 10px; border: 3px solid #01A982; background-color: #ffffff">
-                                                        <img src="./images/icon03.png"
-                                                         alt="" style="width: 41px; height: auto; max-width: 41px;">
-                                                        <p><strong style="color: #01A982;">Highly secure
-                                                            and compliant</strong><br>
-                                                            Improve resilience to refocus on innovation
-                                                        </p>
+                                                    <td width="2%" class="stack-column-center paddingtop20"></td>
+                                                    <td class="column stack-column-center">
+                                                        <table width="100%">
+                                                            <tr>
+                                                                <td>
+                                                                    <img src="./images/icon03.png" alt="" style="width:100%; max-width: 41px;">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p>
+                                                                        <strong style="color: #01A982;">Highly secure
+                                                                            and compliant
+                                                                        </strong><br>
+                                                                        Improve resilience to refocus on innovation
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
                                                     </td>
                                                 </tr>
                                             </table>
